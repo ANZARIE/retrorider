@@ -10,22 +10,20 @@ body{
 
  
 
-  
-
-  @media screen and (max-width:767px) {
-    
-    div iframe{
-        width: 600px;
-        height: 400px;
-    }
-    
-  }
-
   @media screen and (max-width:424px) {
     
     div iframe{
         width: 500px;
         height: 300px;
+    }
+    
+  }
+
+  @media screen and (max-width:768px) {
+    
+    div iframe{
+        width: 600px;
+        height: 400px;
     }
     
   }

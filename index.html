@@ -8,17 +8,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <style>
-      #demo{
-        width: 75%;
-      }
-    </style>
+    <link rel="stylesheet" href="/assets/css/indexstyle.css">
 </head>
-<body>
+<body class="overflow-x-hidden">
 
-  <!-- comment  somewhere-->
     <!-- ----------------------------------NAV BAR START---------------------------------------- -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top w-100">
         <a class="navbar-brand fw-bolder ps-1 ms-3" href="index.html">
           <img src="assets/img/LOGO.png" alt="LOGO" width="100px" style="margin: 0;">
         </a>
@@ -35,16 +30,16 @@
               <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item me-4">
-              <a class="nav-link" href="reviews.html">Reviews</a>
+              <a class="nav-link" href="/pages/reviews.html">Reviews</a>
             </li> 
             <li class="nav-item me-4">
-                <a class="nav-link" href="news.html">News</a>
+                <a class="nav-link" href="/pages/news.html">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-4" href="custombuilds.html">Custom Builds</a>
+                <a class="nav-link me-4" href="/pages/custombuilds.html">Custom Builds</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-5" href="about.html">About Us</a>
+                <a class="nav-link me-5" href="/pages/about.html">About Us</a>
               </li>
               
             
@@ -70,7 +65,7 @@
       <!-- ----------------------------------NAV BAR END---------------------------------------- -->
       
       <!-- ----------------------------------FEATURED START---------------------------------------------------------------- -->
-      <div class="mb-5">
+   
         <div class="container feature">
 
           <p class="h2 text-center">
@@ -79,7 +74,7 @@
             </a>
           </p>
   
-          <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-center ">
             <div id="demo" class="carousel slide" data-bs-ride="carousel">
   
               
@@ -94,13 +89,13 @@
               <!-- The slideshow/carousel -->
               <div class="carousel-inner border border-3">
                 <div class="carousel-item active">
-                  <img src="assets/img/Honda-Rebel-1100.jpg" alt="Los Angeles" class="d-block w-100 active w-100" height="700px">
+                  <img src="assets/img/Honda-Rebel-1100.jpg" alt="Los Angeles" class="d-block w-100 active w-100" height="200px" id="carousel-img">
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/img/honda-rebel-1100-2-1681458649.jpeg" alt="Chicago" class="d-block w-100" height="700px">
+                  <img src="assets/img/honda-rebel-1100-2-1681458649.jpeg" alt="Chicago" class="d-block w-100" height="200px" id="carousel-img">
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/img/honda-rebel-1100-1681454565.jpeg" alt="New York" class="d-block w-100" height="700px">
+                  <img src="assets/img/honda-rebel-1100-1681454565.jpeg" alt="New York" class="d-block w-100" height="200px" id="carousel-img">
                 </div>
               </div>
             
@@ -115,13 +110,13 @@
 
           </div>
         </div>
-      </div>
+   
 
 <!-- --------------------------------FEATURE END-------------------------------------------------- -->
 
 <!-- =========================================================================================================aa -->
       <!-- NEWS AND REVIEWS container -->
-      <div class="container d-md-flex" id="news">
+      <div class="container d-md-flex " id="news">
 
 
 
@@ -283,7 +278,7 @@
 
 
 
-  <footer class="bg-dark text-center text-white mt-5">
+  <footer class="bg-dark text-center text-white mt-5 ">
   <!-- Grid container -->
   <div class="container p-4 pb-0">
     <!-- Section: Social media -->
@@ -349,7 +344,7 @@
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2023 Copyright:
-    <a class="text-white" href="index.html">Retro-Rider.com</a>
+    <a class="text-white text-decoration-none" href="index.html">Retro-Rider.com</a>
   </div>
   <!-- Copyright -->
 </footer>

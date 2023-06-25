@@ -108,18 +108,7 @@ h4 a:hover{
   }
 
 
-/* for index.html feature mobile */
-  @media screen and (max-width:425px) {
-    
-    div img{
-       
-        height: 200px;
-    }
-    #demo{
-      width: 100%;
-    }
-    
-  }
+
 
   /* for reviews feature mobile */
 
