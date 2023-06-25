@@ -85,7 +85,7 @@ h4 a:hover{
   .dropdown:hover .dropbtn {background-color: #3c3c3c;}
 
 
-
+ /* scrollbars design */
   ::-webkit-scrollbar {
     width: 10px;
   }
@@ -106,3 +106,54 @@ h4 a:hover{
   ::-webkit-scrollbar-thumb:hover {
     background: #b30000; 
   }
+
+
+/* for index.html feature mobile */
+  @media screen and (max-width:425px) {
+    
+    div img{
+       
+        height: 200px;
+    }
+    #demo{
+      width: 100%;
+    }
+    
+  }
+
+  /* for reviews feature mobile */
+
+  @media screen and (min-width:425px) {
+    
+  .youtube {
+    width: 75%;
+  }
+   
+    
+  }
+
+  
+
+  
+
+    /* for news feature mobile */
+
+  @media screen and (max-width:425px) {
+    
+    .featured {
+      width: 100%;
+    }
+     
+      
+    }
+    /* for news feature computer */ 
+    @media screen and (min-width:1024px) {
+    
+      .featured {
+        width: 75%;
+      }
+       
+        
+      }
+
+
