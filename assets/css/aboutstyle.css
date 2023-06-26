@@ -1,0 +1,24 @@
+body{
+    background-color: beige;
+  }
+  .padding-top{
+    padding-top: 50px;
+  }
+  .about{
+    background-color: rgba(240, 248, 255, 0);
+  }
+
+  div img{
+    width: 100%;
+  }
+
+  @media screen and (min-width:1020px) {
+    
+    div img{
+       
+        height: 700px;
+        width: 75%;
+        
+    }
+  
+  }
